@@ -1,5 +1,3 @@
-import skibidiImage from "../assets/NormalToiletImage2.png";
-
 interface Props {
     skibidis: number;
 }

@@ -13,6 +13,10 @@ function App() {
   
   let lastAudio = skibidiSounds[0];
 
+  for (let i = 0; i < skibidiSounds.length; i++) {
+    skibidiSounds[i].volume = 0.25
+  }
+
   function SkibidiClick() {
     updateSkibidis(skibidis + 1);
 
@@ -27,13 +31,13 @@ function App() {
 
   return (
     <>
-      <h1>👋 Welcome to my website!</h1>
-      <p>I'll turn this into something great soon!</p>
+      <h1 className="d-flex justify-content-center">👋 Welcome to my website!</h1>
+      <p className="d-flex justify-content-center">I'll turn this into something great soon!</p>
       
       <SkibidiCounter skibidis={skibidis} />
       <SkibidiToilet onSkibidiClick={SkibidiClick} />
       
-      <footer>@KashTheKing 2024</footer>
+      <footer className="d-flex justify-content-center">@KashTheKing 2024</footer>
     </>
   )
 }

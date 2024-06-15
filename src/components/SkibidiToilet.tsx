@@ -8,6 +8,7 @@ function SkibidiToilet({ onSkibidiClick }: Props) {
     return (
         <div className="d-flex justify-content-center">
             <img
+                width={100}
                 src={skibidiImage}
                 draggable="false"
                 onClick={onSkibidiClick}
