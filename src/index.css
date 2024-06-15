@@ -1,0 +1,8 @@
+.skibidi {
+    transition: 0.25s;
+    filter: drop-shadow(0px 0px 5px rgb(175, 175, 175));
+}
+
+.skibidi:hover {
+    rotate: 50px;
+}

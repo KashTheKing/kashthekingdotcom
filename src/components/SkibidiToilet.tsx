@@ -7,7 +7,7 @@ interface Props {
 function SkibidiToilet({ onSkibidiClick }: Props) {
     return (
         <div className="d-flex justify-content-center">
-            <img
+            <img className="skibidi"
                 width={100}
                 src={skibidiImage}
                 draggable="false"
